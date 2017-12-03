@@ -1,6 +1,6 @@
 ideologies = [
     {
-        "name": "아나코 코뮤니즘",
+        "name": "아나코 공산주의",
         "stats": {
             "econ": 100,
             "dipl": 50,
