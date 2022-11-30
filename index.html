@@ -18,11 +18,11 @@
 <a href="https://github.com/8values-ko/8values-ko.github.io" class="github-corner" aria-label="Github에서 소스 코드 보기"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <h1>8values</h1>
 <hr>
+<center><img src="values.svg"></center><br>
 <button class="button" id="start" onclick="location.href='instructions.html';">시작하려면 여기를 누르세요</button>
-<img src="values.svg" class="center"></img>
 
 <h2>8values란 무엇인가요?</h2>
-    <p>8values는 여덟 가지 정치적 가치를 백분율로 측정하는 정치 성향 테스트입니다. 여러분은 스스로의 의견에 따라 <b>적극 동의</b>부터 <b>적극 비동의</b>까지의 선택지를 통해 설문지에 답할 것이고, 각 답변은 여러분의 점수에 약간씩 영향을 미칠 것입니다. 테스트가 끝나면 각 값의 최댓값과 답변을 비교해 백분율을 산출합니다. 정직하게 답하세요! <br /><br />
+    <p>8values는 여덟 가지 정치적 가치를 백분율로 측정하는 정치 성향 테스트입니다. 여러분은 자신의 의견에 따라 <b>적극 동의</b>부터 <b>적극 비동의</b>까지의 선택지를 통해 설문지에 답할 것이고, 각 답변은 여러분의 점수에 약간씩 영향을 미칠 것입니다. 테스트가 끝나면 각 값의 최댓값과 답변을 비교해 백분율을 산출합니다. 정직하게 답하세요! <br /><br />
     8values에는 <b><u><span id="numOfQuestions"></span></u></b>개의 문항이 있습니다.</p>
 
     <h2><a id="anchor">여덟 가지 가치가 무엇인가요?</a></h2>
@@ -32,7 +32,7 @@
             <div class="explanation_blurb_left">
                 <p class="value"><b style="color:#d32f2f;">평등</b></p>
                 <p class="blurb-text">
-                    평등 점수가 높은 사람들은 경제가 대중들에게 가치를 균등하게 분배해야 한다고 믿습니다. 그들은 진보적인 세법과 사회 프로그램을 중요시하는 경향이 있으며, 이 수치가 높을 경우 사회주의를 지지할 가능성이 높습니다.
+                    평등 점수가 높은 사람들은 경제가 대중들에게 가치를 균등하게 분배해야 한다고 믿습니다. 그들은 진보적인 세법과 사회 프로그램을 중요시하는 경향이 있으며, 이 수치가 높으면 사회주의를 지지할 가능성이 높습니다.
                 </p>
             </div>
             <div class="explanation_axis">
@@ -42,7 +42,7 @@
             <div class="explanation_blurb_right">
                 <p class="value"><b style="color:#00796b;">시장</b></p>
                 <p class="blurb-text">
-                    시장 점수가 높은 사람들은 경제가 빠른 성장에 초점을 맞춰야 한다고 생각합니다. 그들은 낮은 세금, 민영화, 규제 완화를 중요시하는 경향이 있으며, 이 수치가 높을 경우 자유방임주의 자본주의를 지지할 가능성이 높습니다.
+                    시장 점수가 높은 사람들은 경제가 빠른 성장에 초점을 맞춰야 한다고 생각합니다. 그들은 낮은 세금, 민영화, 규제 완화를 중요시하는 경향이 있으며, 이 수치가 높으면 자유방임주의 자본주의를 지지할 가능성이 높습니다.
                 </p>
             </div>
         </div>
@@ -50,7 +50,7 @@
             <div class="explanation_blurb_left">
                 <p class="value"><b style="color:#f57c00;">국가</b></p>
                 <p class="blurb-text">
-                    국가 점수가 높은 사람들은 애국주의적이고 민족주의적입니다. 그들은 주로 군사력, 힘, 주권을 중요시하는 경향이 있으며, 이 수치가 높을 경우 영토 확장을 중시하는 공격적인 외교 정책을 지지할 가능성이 높습니다.
+                    국가 점수가 높은 사람들은 애국주의적이고 민족주의적입니다. 그들은 주로 군사력, 힘, 주권을 중요시하는 경향이 있으며, 이 수치가 높으면 영토 확장을 중시하는 공격적인 외교 정책을 지지할 가능성이 높습니다.
                 </p>
             </div>
             <div class="explanation_axis">
@@ -60,7 +60,7 @@
             <div class="explanation_blurb_right">
                 <p class="value"><b style="color:#0288d1;">국제</b></p>
                 <p class="blurb-text">
-                    국제 점수가 높은 사람들은 세계주의적이고 국제주의적입니다. 그들은 주로 외교, 협력, 통합을 강조합니다. 이 수치가 높을 경우 세계 정부를 강조하는 평화적인 외교 정책을 지지할 가능성이 높습니다.
+                    국제 점수가 높은 사람들은 세계주의적이고 국제주의적입니다. 그들은 주로 외교, 협력, 통합을 강조합니다. 이 수치가 높으면 세계 정부를 강조하는 평화적인 외교 정책을 지지할 가능성이 높습니다.
                 </p>
             </div>
         </div>
@@ -78,7 +78,7 @@
             <div class="explanation_blurb_right">
                 <p class="value"><b style="color:#303f9f;">권위</b></p>
                 <p class="blurb-text">
-                    권위 점수가 높은 사람들은 강력한 국가 권력을 믿습니다. 그들은 개인 생활에 대한 국가의 개입이나 정부 감시를 중요시하는 경향이 있으며, 이 수치가 높을 경우 검열 또는 독재를 지지할 가능성이 높습니다.
+                    권위 점수가 높은 사람들은 강력한 국가 권력을 믿습니다. 그들은 개인 생활에 대한 국가의 개입이나 정부 감시를 중요시하는 경향이 있으며, 이 수치가 높으면 검열 또는 독재를 지지할 가능성이 높습니다.
                 </p>
             </div>
         </div>
@@ -96,14 +96,14 @@
             <div class="explanation_blurb_right">
                 <p class="value"><b style="color:#7b1fa2;">진보</b></p>
                 <p class="blurb-text">
-                    진보 점수가 높은 사람들은 사회 변화와 합리주의를 믿습니다. 늘 그렇지는 않지만, 그들은 대개 세속적이거나 무신론자이며 환경 운동와 과학/기술 연구를 지지합니다.
+                    진보 점수가 높은 사람들은 사회 변화와 합리주의를 믿습니다. 늘 그렇지는 않지만, 그들은 대개 세속적이거나 무신론자이며 환경 운동과 과학/기술 연구를 지지합니다.
                 </p>
             </div>
         </div>
         <br/>
     </div>
 <h2>결과 아래의 '가장 가까운 성향'은 무엇인가요?</h2>
-    <p>테스트는 여덟 가지 가치를 계산하는 것 외에도 당신을 정치적 이념 또한 제시홥니다. 이는 진행 중인 작업이며, 테스트의 값과 축에 비해 부정확하니 너무 진지하게 받아들이지 마세요. 측정된 이념에 동의하지 않을 경우 eightvalues@gmail.com으로 점수, 측정된 이념 및 선호하는 이념을 이메일로 보내주시면 시스템 조정을 검토해 보겠습니다. 감사합니다!</p>
+    <p>테스트는 여덟 가지 가치를 계산하는 것 외에도 당신을 정치적 이념 또한 제시합니다. 이는 진행 중인 작업이며, 테스트의 값과 축보다 부정확하니 너무 진지하게 받아들이지 마세요. 측정된 이념에 동의하지 않을 경우 <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a>으로 점수, 측정된 이념 및 선호하는 이념을 이메일로 보내주시면 시스템 조정을 검토해 보겠습니다. 감사합니다!</p>
 <h2>제 점수가 마음에 들지 않아요!</h2>
     <p>¯\_(ツ)_/¯<br/><br/>
     <p>8values 한국어판 개발자 일동: 제안이나 건설적인 비판은 <a href="mailto:basix1120@protonmail.com">basix1120@protonmail.com</a> 혹은 GitHub 페이지에서 열린 문제제기를 해 주세요: <a href="https://github.com/8values-ko/8values-ko.github.io">GitHub 페이지</a></p>
