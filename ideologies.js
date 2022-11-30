@@ -175,7 +175,7 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 60,
-            "govt": 40,
+            "govt": 50,
             "scty": 30
         }
     },
@@ -184,7 +184,7 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 70,
-            "govt": 40,
+            "govt": 60,
             "scty": 80
         }
     },
@@ -256,7 +256,7 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 50,
-            "govt": 0,
+            "govt": 100,
             "scty": 20
         }
     },
@@ -407,7 +407,7 @@ ideologies = [
     {
         "name": "근본주의",
         "stats": {
-            "econ": 20,	
+            "econ": 20,
             "dipl": 30,
             "govt": 30,
             "scty": 5

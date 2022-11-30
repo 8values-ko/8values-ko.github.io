@@ -22,34 +22,94 @@
 <img src="values.svg" class="center"></img>
 
 <h2>8values란 무엇인가요?</h2>
-    <p>8values는 여덟 가지 정치적 가치를 백분율로 측정하는 일종의 정치 성향 퀴즈입니다. 항목에 있는 <b>적극 동의, 동의, 중립/모르겠다, 비동의, 적극 비동의</b>에서 자신의 입장을 답하고 항목들을 제출하면 점수가 계산됩니다.  체크를 다 하시고 퀴즈가 끝나면 자신의 각 정치적 가치에 대해 백분율로 나타내줍니다. 참, 정직하게 체크해주세요! <br /><br />
-    8values에는 <b><u><span id="numOfQuestions"></span></u></b> 문항의 질문이 있습니다.</p>
+    <p>8values는 여덟 가지 정치적 가치를 백분율로 측정하는 정치 성향 테스트입니다. 여러분은 스스로의 의견에 따라 <b>적극 동의</b>부터 <b>적극 비동의</b>까지의 선택지를 통해 설문지에 답할 것이고, 각 답변은 여러분의 점수에 약간씩 영향을 미칠 것입니다. 테스트가 끝나면 각 값의 최댓값과 답변을 비교해 백분율을 산출합니다. 정직하게 답하세요! <br /><br />
+    8values에는 <b><u><span id="numOfQuestions"></span></u></b>개의 문항이 있습니다.</p>
 
-<h2>여덟 가지의 정치적 가치는 무엇인가요?</h2>
-    <p>네 개의 각개 다른 축이 있습니다. - 경제 관련, 외교 관련, 국가 관련, 사회 관련.  또한 각각 두 개의 반대되는 가치가 있습니다.</p>
-    <p class="value-description"><b style="color:#d32f2f;">평등 지향</b> (경제 관련)<br/>
-        평등 지향 점수가 더 높으신 분들은 경제를 사람들에 가치를 균등하게 분배해야 하는 것이라고 믿습니다. 그들은 누진 소득제, 사회복지를 지지하는 경향이 있으며, 해당 가치가 높으면 사회주의적입니다.</p>
-    <p class="value-description"><b style="color:#00796b;">시장 지향</b> (경제 관련)<br/>
-        시장 지향 점수가 더 높은 분들은 경제를 빠른 성장에 초점을 둬야 하는 것이라고 믿습니다. 그들은 더 낮은 세금, 민영화, 규제 완화를 지지하는 경향이 있으며, 해당 가치가 높으면 자유방임주의적입니다.</p>
-    <p class="value-description"><b style="color:#f57c00;">국가 지향</b> (외교 관련)<br/>
-        국가 지향 점수가 더 높은 분들은 애국주의적이고 민족주의적입니다. 대체로 군사적이고, 힘에 의한, 자주적인 것을 중시하는 팽창적 대외정책을, 해당 가치가 높으면 영토확장론을 지지합니다.</p>
-    <p class="value-description"><b style="color:#0288d1;">국제 지향</b> (외교 관련)<br/>
-        국제 지향 점수가 더 높은 분들은 세계시민주의적이고 세계화론적입니다. 대체로 평화적 대외정책을 지지하며, 통합적이고 협력적인 외교를 중시하고, 해당 가치가 높으면 세계정부를 지지합니다.</p>
-    <p class="value-description"><b style="color:#fbc02d;">자유 지향</b> (국가 관련)<br/>
-        자유 지향 점수가 더 높은 분들은 시민의 자유가 강력해야 한다고 믿습니다. 민주주의를 지지하며, 국가가 개인의 삶에 개입하는 것을 반대하는 경향이 있습니다. 시민의 자유를 나타내 주는 것이지, 경제적 자유가 아님을 주의해 주세요.</p>
-    <p class="value-description"><b style="color:#303f9f;">권위 지향</b> (국가 관련)<br/>
-        권위 지향 점수가 더 높은 분들은 국가권력이 강력해야 한다고 믿습니다. 국가가 개인의 삶에 개입하거나 감시하는 것을 지지하고, 해당 가치가 높으면 검열제도 혹은 독재정치를 지지합니다.</p>
-    <p class="value-description"><b style="color:#689f38;">전통 지향</b> (사회 관련)<br/>
-        전통 지향 점수가 더 높은 분들은 전통가치와 도덕률의 엄격한 준수가 옳다고 믿습니다. 비록 늘 그렇지는 않지만, 대개의 경우는 종교적이며, 보수적 가치 혹은 수구적 가치를 지지합니다.</p>
-    <p class="value-description"><b style="color:#7b1fa2;">진보 지향</b> (사회 관련)<br/>
-        진보 지향 점수가 더 높은 분들은 사회변화와 합리주의가 옳다고 믿습니다. 늘 그렇지는 않지만, 대개는 세속적이고 무신론자들이며, 환경운동과 과학적/ 기술적 연구를 지지합니다.</p>
-<h2>결과 아래에 뜨는 '가장 가까운 성향'은 무엇인가요?</h2>
-    <p>퀴즈는 여덟 가지 가치관에 맞춰주는 것 외에도 정치적 이데올로기 역시 맞춰줍니다. 이것은 진행 중인 작업이기도하며, 테스트의 값과 축보다 부정확하니 너무 진지하게 받아들이진 마세요! 만약 측정된 이데올로기에 동의하지 않는다면 점수, 측정된 이데올로기, 선호하는 이데올로기를 이메일 eightvalues@gmail.com(영어)으로 보내주신다면 시스템을 조정하겠습니다. 감사합니다!</p>
-<h2>여담이지만 저는 제 점수가 마음에 안 드네요.</h2>
-    <p>¯\_(ツ)_/¯<br/>
-    <p>8values 한국어판 개발자 일동: 제안이나 건설적인 비판은 <a href="mailto:basix1120@protonmail.com">basix1120@protonmail.com</a> 혹은 GitHub 페이지 여기에서 열린 문제제기를 해주세요: <a href="https://github.com/8values-ko/8values-ko.github.io">GitHub 페이지</a></p>
-<h2>잘못된 번역이 있는 것 같아요.</h2>
-    <p><a href="https://basix.typeform.com/to/SZYbzP">설문 조사에 참여해주세요!</a> 번역 품질 향상을 위해 노력하고 있습니다.</p>
+    <h2><a id="anchor">여덟 가지 가치가 무엇인가요?</a></h2>
+    <p>경제, 외교, 국가, 사회까지 네 개의 독립적인 축이 있으며 각각 두 개의 상반된 가치가 있습니다.</p>
+    <div class="explanation_bg">
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#d32f2f;">평등</b></p>
+                <p class="blurb-text">
+                    평등 점수가 높은 사람들은 경제가 대중들에게 가치를 균등하게 분배해야 한다고 믿습니다. 그들은 진보적인 세법과 사회 프로그램을 중요시하는 경향이 있으며, 이 수치가 높을 경우 사회주의를 지지할 가능성이 높습니다.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">시장</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#00796b;">시장</b></p>
+                <p class="blurb-text">
+                    시장 점수가 높은 사람들은 경제가 빠른 성장에 초점을 맞춰야 한다고 생각합니다. 그들은 낮은 세금, 민영화, 규제 완화를 중요시하는 경향이 있으며, 이 수치가 높을 경우 자유방임주의 자본주의를 지지할 가능성이 높습니다.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#f57c00;">국가</b></p>
+                <p class="blurb-text">
+                    국가 점수가 높은 사람들은 애국주의적이고 민족주의적입니다. 그들은 주로 군사력, 힘, 주권을 중요시하는 경향이 있으며, 이 수치가 높을 경우 영토 확장을 중시하는 공격적인 외교 정책을 지지할 가능성이 높습니다.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">외교</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#0288d1;">국제</b></p>
+                <p class="blurb-text">
+                    국제 점수가 높은 사람들은 세계주의적이고 국제주의적입니다. 그들은 주로 외교, 협력, 통합을 강조합니다. 이 수치가 높을 경우 세계 정부를 강조하는 평화적인 외교 정책을 지지할 가능성이 높습니다.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#fbc02d;">자유</b></p>
+                <p class="blurb-text">
+                    자유 점수가 높은 사람들은 강력한 시민 자유를 지지합니다. 그들은 민주주의를 지지하고 국가가 사생활에 개입하는 것을 반대하는 경향이 있습니다. 이는 경제적 자유가 아니라 사회적 자유를 의미한다는 것을 주목하세요.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">국가</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#303f9f;">권위</b></p>
+                <p class="blurb-text">
+                    권위 점수가 높은 사람들은 강력한 국가 권력을 믿습니다. 그들은 개인 생활에 대한 국가의 개입이나 정부 감시를 중요시하는 경향이 있으며, 이 수치가 높을 경우 검열 또는 독재를 지지할 가능성이 높습니다.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#689f38;">전통</b></p>
+                <p class="blurb-text">
+                    전통 점수가 높은 사람들은 전통적인 가치와 도덕률의 엄격한 준수를 믿습니다. 늘 그렇지는 않지만, 그들은 보통 종교적이고, 보수적 가치 혹은 수구적 가치를 지지할 가능성이 높습니다.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">사회</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#7b1fa2;">진보</b></p>
+                <p class="blurb-text">
+                    진보 점수가 높은 사람들은 사회 변화와 합리주의를 믿습니다. 늘 그렇지는 않지만, 그들은 대개 세속적이거나 무신론자이며 환경 운동와 과학/기술 연구를 지지합니다.
+                </p>
+            </div>
+        </div>
+        <br/>
+    </div>
+<h2>결과 아래의 '가장 가까운 성향'은 무엇인가요?</h2>
+    <p>테스트는 여덟 가지 가치를 계산하는 것 외에도 당신을 정치적 이념 또한 제시홥니다. 이는 진행 중인 작업이며, 테스트의 값과 축에 비해 부정확하니 너무 진지하게 받아들이지 마세요. 측정된 이념에 동의하지 않을 경우 eightvalues@gmail.com으로 점수, 측정된 이념 및 선호하는 이념을 이메일로 보내주시면 시스템 조정을 검토해 보겠습니다. 감사합니다!</p>
+<h2>제 점수가 마음에 들지 않아요!</h2>
+    <p>¯\_(ツ)_/¯<br/><br/>
+    <p>8values 한국어판 개발자 일동: 제안이나 건설적인 비판은 <a href="mailto:basix1120@protonmail.com">basix1120@protonmail.com</a> 혹은 GitHub 페이지에서 열린 문제제기를 해 주세요: <a href="https://github.com/8values-ko/8values-ko.github.io">GitHub 페이지</a></p>
+    <br/><br/>
+    <footer>
+        <p>2022년 11월 30일, 원판의 최신 이데올로기 <a href="https://github.com/8values/8values.github.io/commit/d3ce91c70921ad0dc2ee6a263849eb1b1709f029">d3ce91c</a>와 최신 질문 <a href="https://github.com/8values/8values.github.io/commit/32657b46d2af01bf3a69266bc51e9bf16341c5b8">32657b4</a>을 반영했습니다.</p></footer>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <!--
