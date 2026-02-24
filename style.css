@@ -3,6 +3,7 @@ html {
     padding: 0px;
     scroll-behavior: smooth;
 }
+
 body {
     width: 80%;
     min-height: calc(100vh - 4em);
@@ -14,6 +15,7 @@ body {
     border-right-style: solid;
     border-width: 20px;
 }
+
 p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
@@ -39,6 +41,7 @@ p.axis_name {
     font-size: 19pt;
     font-family: 'Montserrat';
 }
+
 p.question {
     margin: 16pt auto;
     color: #333333;
@@ -57,6 +60,7 @@ p.question {
     text-align: center;
 
 }
+
 h1 {
     color: #222222;
     font-family: 'Montserrat', sans-serif;
@@ -66,6 +70,7 @@ h1 {
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
+
 h2 {
     color: #333333;
     font-family: 'Montserrat', sans-serif;
@@ -74,13 +79,16 @@ h2 {
     margin-top: 12pt;
     margin-bottom: 10pt;
 }
+
 li {
     font-size: 16pt;
     text-indent: 16pt;
 }
+
 a {
     font-family: inherit;
 }
+
 div.center {
     background-color: #eeeeee;
     font-family: 'Montserrat', sans-serif;
@@ -95,16 +103,20 @@ div.center {
     font-size: 24pt;
     margin: auto;
 }
+
 img.quadcolumn {
     width: 23.75%;
     transition: transform .3s;
 }
+
 img.quadcolumn:hover {
     transform: scale(1.05);
-  }
+}
+
 div.quadcolumn {
     width: 23.75%;
 }
+
 div.axis_name {
     color: #333333;
     font-size: 19pt;
@@ -112,15 +124,19 @@ div.axis_name {
     display: inline-block;
     padding-bottom: 8.65pt;
 }
+
 .spacer {
     display: flex;
 }
-.spacer > div{
+
+.spacer>div {
     margin-top: 10px;
     display: inline-block;
-    *display: inline; /* For IE7 */
+    *display: inline;
+    /* For IE7 */
     text-align: center;
 }
+
 .button {
     background-color: #2196f3;
     font-family: 'Montserrat', sans-serif;
@@ -137,19 +153,59 @@ div.axis_name {
     margin: -2px auto;
     cursor: pointer;
 }
-.button:hover, .button:focus { background: #1687e0; }
-.stronglyAgree { background: #1b5e20; }
-.stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
-.agree { background: #4caf50; }
-.agree:hover, .agree:focus { background: #29942e; }
-.neutral { background: #949494; }
-.neutral:hover, .neutral:focus { background: #656565; }
-.disagree { background: #f44336; }
-.disagree:hover, .disagree:focus { background: #d6271a; }
-.stronglyDisagree { background: #b71c1c; }
-.stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00e0e; }
 
-.small_button, .small_button_off {
+.button:hover,
+.button:focus {
+    background: #1687e0;
+}
+
+.stronglyAgree {
+    background: #1b5e20;
+}
+
+.stronglyAgree:hover,
+.stronglyAgree:focus {
+    background: #154a19;
+}
+
+.agree {
+    background: #4caf50;
+}
+
+.agree:hover,
+.agree:focus {
+    background: #29942e;
+}
+
+.neutral {
+    background: #949494;
+}
+
+.neutral:hover,
+.neutral:focus {
+    background: #656565;
+}
+
+.disagree {
+    background: #f44336;
+}
+
+.disagree:hover,
+.disagree:focus {
+    background: #d6271a;
+}
+
+.stronglyDisagree {
+    background: #b71c1c;
+}
+
+.stronglyDisagree:hover,
+.stronglyDisagree:focus {
+    background: #a00e0e;
+}
+
+.small_button,
+.small_button_off {
     background-color: #333;
     font-family: 'Montserrat', sans-serif;
     border: none;
@@ -166,7 +222,8 @@ div.axis_name {
     cursor: pointer;
 }
 
-.small_button:hover, .small_button:focus {
+.small_button:hover,
+.small_button:focus {
     background: #222;
 }
 
@@ -177,32 +234,38 @@ div.axis_name {
     cursor: not-allowed;
     margin: -4px auto;
 }
+
 .arrow {
     width: 60%;
     height: auto;
 }
+
 div.explanation_blurb_left {
     vertical-align: top;
     width: 37%;
     margin-left: 1%;
     margin-right: 1%;
 }
+
 div.explanation_blurb_right {
     vertical-align: top;
     width: 37%;
     margin-left: 1%;
     margin-right: 1%;
 }
+
 div.explanation_axis {
     width: 20.9%;
     vertical-align: top;
 }
+
 div.axis {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 div.bar {
     height: 36pt;
     line-height: 36pt;
@@ -218,6 +281,7 @@ div.bar {
     display: block;
     width: 50%;
 }
+
 div.text-wrapper {
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
@@ -225,54 +289,65 @@ div.text-wrapper {
     color: #222222;
     display: inline-block;
 }
+
 div.equality {
     background-color: #f44336;
     text-align: left;
     border-right-style: solid;
 }
+
 div.wealth {
     background-color: #00897b;
     text-align: right;
     border-left-style: solid;
 }
+
 div.liberty {
     background-color: #ffeb3b;
     text-align: left;
     border-right-style: solid;
 }
+
 div.authority {
     background-color: #3f51b5;
     text-align: right;
     border-left-style: solid;
 }
+
 div.peace {
     background-color: #03a9f4;
     text-align: right;
     border-left-style: solid;
 }
+
 div.might {
     background-color: #ff9800;
     text-align: left;
     border-right-style: solid;
 }
+
 div.progress {
     background-color: #9c27b0;
     text-align: right;
     border-left-style: solid;
 }
+
 div.tradition {
     background-color: #8bc34a;
     text-align: left;
     border-right-style: solid;
 }
+
 span.weight-300 {
     font-weight: 300;
 }
+
 .explanation_bg {
     background-color: #eeeeee;
     border-radius: 25px;
     margin-top: 15px;
 }
+
 #banner {
     border-color: #444444;
     border-style: solid;
@@ -282,4 +357,141 @@ span.weight-300 {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1em;
+        border-width: 10px;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 40pt;
+        line-height: 48pt;
+    }
+
+    h2 {
+        font-size: 24pt;
+        line-height: 28pt;
+    }
+
+    p {
+        font-size: 14pt;
+    }
+
+    p.question {
+        width: 90%;
+        min-width: 0;
+        font-size: 24pt;
+        min-height: auto;
+        padding: 12pt;
+        box-sizing: border-box;
+    }
+
+    .button {
+        width: 90%;
+        min-width: 0;
+        font-size: 18pt;
+        padding: 12pt 8pt;
+        margin-bottom: 8px;
+        box-sizing: border-box;
+    }
+
+    .small_button,
+    .small_button_off {
+        width: 40%;
+        min-width: 0;
+        font-size: 16pt;
+        margin-bottom: 8px;
+        box-sizing: border-box;
+    }
+
+    div.center {
+        width: 90%;
+        min-width: 0;
+        font-size: 18pt;
+        box-sizing: border-box;
+    }
+
+    .spacer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        border-bottom: 2px dashed #cccccc;
+    }
+
+    .spacer:last-child {
+        border-bottom: none;
+    }
+
+    div.explanation_axis {
+        display: contents;
+    }
+
+    p.axis_name {
+        order: 1;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 24pt;
+        font-weight: bold;
+        color: #222;
+        background-color: #e0e0e0;
+        padding: 5px 20px;
+        border-radius: 10px;
+    }
+
+    div.explanation_blurb_left {
+        order: 2;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    img.arrow {
+        order: 3;
+        width: 60px;
+        transform: rotate(90deg);
+        margin: 20px auto;
+        display: block;
+    }
+
+    div.explanation_blurb_right {
+        order: 4;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    p.value {
+        text-align: center;
+        text-indent: 0;
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    div.bar {
+        height: 18pt;
+        line-height: 18pt;
+        padding: 4pt 8pt;
+        box-sizing: content-box;
+    }
+
+    div.text-wrapper {
+        font-size: 14pt;
+        line-height: 18pt;
+        font-weight: bold;
+    }
+
+    img.img-something {
+        width: 40px;
+    }
+
+    #banner {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+    }
 }
